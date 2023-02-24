@@ -1,0 +1,17 @@
+The Test.java should be placed in the same folder as other java files
+Testcases are seperated into functions. Each funtion contain a group of similar testcases.
+To test all the testcases at once, the testAll() function will test all the cases below.
+
+No.		Name of function			Testcases
+1.		testDice();					Output of a dice throw
+2.		testPlayerBehavior();		Player behaviors when landing on different spaces and going bankrupt
+3.		testSaveString();  			Output of the save file format
+4.		testRent_1();				Player lands on a owned property and can pay the rent
+5.		testRent_2();				Player lands on a owned property but cannot pay the rent
+6.		testRent_3();    			Player lands on their property
+7.		testBuyProperty_1();		Player buys a property and can afford it
+8.		testBuyProperty_2();		Player buys a property but cannot afford it
+9.		testPropertyRelease();		Player goes bankrupt and the property is released
+10.		testJailStatus();			Player goes to jail
+11.		testBoardSpace();			All functions in BoardSpace Class, if property data is modified
+12.		testPlayer();				All functions in Player Class, if player data is modified
