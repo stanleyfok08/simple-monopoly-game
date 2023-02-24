@@ -1,0 +1,60 @@
+MONOPOLY
+
+1. Introduction
+The game is played with a board divided into 20 square, and a pair of
+four-sided (tetrahedral) dice and it can accommodate two to six players. 
+Besides playing the game, Players can save and load a game.
+
+
+
+2. Game Rule
+* Each player starts with HKD 1500 and no property.
+
+* Players have money and can own properties.
+
+* All players start from the first square (“Go”).
+
+* Players take turns in rolling the dice (default player1 start first) and advancing their respective tokens clockwise on the board. After reaching square 20, moves to square 1 again.
+
+* A round consists of all players taking their turns once.
+
+* If after taking a turn a player has a negative amount of money, she retires from the game. All her properties become unowned.
+
+* The game will end if there is only one player left or after 100 rounds. The winner is the player with the most money at the end of the game. Ties (multiple winners) are possible.
+
+
+
+3. Special square
+* Certain squares take effect on a player (see below) when her token passes or lands on the square. 
+
+* Property squares (marked by a colored stripe): They contain the name and the price of the property and can be owned by players. If a player lands on an unowned property, she can choose to buy it for the written price or do nothing. If a player lands on a property owned by another player, she has to pay a rent (rent amounts are listed below).
+
+Pos	Name	Price	Rent
+2	Central	800	90
+3	WanChai	700	65
+5	Stanley	600	60
+7	Shek O	400	10
+8	MongKok	500	40
+10	TsingYi	400	15
+12	Shatin	700	75
+14	TuenMun	400	20
+15	Tai Po	500	25
+17	SaiKung	400	10
+18	YunLong	400	25
+20	Tai O	600	25
+
+* Go: Every time a player passes through (not necessarily lands on) this square will gets HKD 1500 salary.
+
+* Chance: If a player lands on one of these squares, will gains a random amount (multiple of 10) up to HKD 200 or loses a random amount (multiple of 10) up to HKD 300.
+
+* Income tax: If a player lands on this square, needs to pay 10% of the money (rounded down to a multiple of 10) as tax.
+
+* Free parking: This square has no effect.
+
+* Go to Jail: If a player lands on this square, she immediately goes to the “In Jail” part of the “In Jail/Just Visiting” square.
+
+* In Jail/Just Visiting: If a player lands on this square, she is “Just Visiting”: the square has no effect. 
+
+* If the player got here by landing on “Go to Jail”, she is in jail and cannot make a move. A player gets out of jail by… (1) paying a fine of HKD 150 before rolling the dice on either of the next two turns; (2) throwing both dice coming out the same face up on any of her next three turns, if player succeeds in doing this, immediately moves forward by the number of spaces shown by the doubles throw
+ 
+* If the player does not throw doubles by their third turn, she must pay the HKD 150 fine to gets out of jail and immediately moves forward the number of spaces shown by her throw. 
